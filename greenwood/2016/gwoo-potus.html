@@ -1,0 +1,854 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+<title>Greenwood - Election Results</title><script type="text/javascript">
+try {document.execCommand("BackgroundImageCache", false, true);} catch(err) {}
+</script> 
+
+<script type="text/javascript">
+<!-- 
+var gomez={
+gs: new Date().getTime(),
+acctId:'5154D9',
+pgId:'Greenwood:ENRMapData',
+grpId:'64682' 
+}; 
+//--> 
+</script> 
+
+<link href="../css/main.css" rel="stylesheet" type="text/css" media="screen">
+<link href="../css/print.css" rel="stylesheet" type="text/css" media="print">
+<!--[if IE]><script type="text/javascript" src="../js/excanvas-compressed.js"></script><![endif]-->
+<script type="text/JavaScript" src="../js/common-compressed.js"></script>
+<script type="text/JavaScript" src="../js/gomez.js"></script><script src="http://5154D9.r.axf8.net/mr/a.gif?a=5154D9&amp;v=1"></script>
+
+<script type="text/JavaScript">
+var votes = 'Votes';
+var total = 'Total';
+var reporting = 'Reporting';
+var areaLabel = 'Precinct';
+var CloseThisWindow = 'Close This Window';
+var PrintThisPage = 'Print This Page';
+var tabSystem = 2;
+var showVoteFor = 1;
+var cid = 0;
+var vote_for = 'Vote For';
+var langId = 'en';
+var region = 'Greenwood';
+var detailLabel = 'Detail';
+function setArea()
+{
+if( ExistParameter('a') )
+{ 
+var a = GetParameterValue('a');
+a = _utf8_decode(unescape(a));
+if( document.getElementById( a ) != null )
+{
+document.location.href = '#' + a;
+}
+}
+}
+function _utf8_decode(utftext) {
+var string = "";
+var i = 0;
+var c = c1 = c2 = 0;
+while ( i < utftext.length ) {
+c = utftext.charCodeAt(i);
+if (c < 128) {
+string += String.fromCharCode(c);
+i++;
+}
+else if((c > 191) && (c < 224)) {
+c2 = utftext.charCodeAt(i+1);
+string += String.fromCharCode(((c & 31) << 6) | (c2 & 63));
+i += 2;
+}
+else {
+c2 = utftext.charCodeAt(i+1);
+c3 = utftext.charCodeAt(i+2);
+string += String.fromCharCode(((c & 15) << 12) | ((c2 & 63) << 6) | (c3 & 63));
+i += 3;
+}
+}
+return string;
+}
+</script>
+</head>
+<body onload="doInit();">
+<div id="wrapper">
+<div id="content-wrapper">
+<div id="note"><center><font size="2" color="red">OFFICIAL RESULTS</font></center><br><center><br>
+<font size="3" color="blue">Precinct-level results by county and contest are located under the "Results by County" tab on the Statewide Results Page.<br><br>
+<input type="button" value="« Return to Statewide Results" onclick="self.close()">
+</font></center></div>
+<table border="0" cellspacing="0" cellpadding="0" class="contest">
+<tbody><tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0" class="map">
+<thead>
+<tr>
+<th width="90%" align="left">2016 Statewide General Election <a href="http://www.enr-scvotes.org/SC/SCElectionResults.xml">RSS</a></th>
+<th align="right" nowrap="nowrap"><span id="wlu"><label>Last updated</label>&nbsp;11/16/2016 2:50:09 PM EST</span></th>
+</tr>
+</thead>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<div id="results"><table border="0" cellspacing="0" cellpadding="0" class="map">
+<thead>
+<tr>
+<th width="100%">President and Vice President (Vote For 1)</th>
+<th width="160" align="right">&nbsp;</th>
+<th width="160" align="right"><div class="btn-printable-pop"><a href="JavaScript:window.print();">Print This Page</a></div></th>
+<th width="160" align="right"><div class="btn-close"><a href="javascript:window.close()">Close This Window</a></div></th>
+</tr>
+</thead>
+<tbody><tr>
+<td colspan="4">
+<div id="legend"><img src="../images/check.gif" alt="Precinct Reporting" border="0"> = Precinct Reporting</div>
+<div id="precinctDetailLabel">Greenwood Precinct Detail</div>
+<table border="0" cellspacing="0" cellpadding="0" class="vts-data">
+<tbody><tr>
+<th id="thcheck" width="16">&nbsp;</th>
+<th id="thpre" scope="col" class="alignLeft width100">Precinct</th>
+<th scope="col">Hillary Rodham Clinton / Timothy Michael Kaine</th><th scope="col">Darrell Castle / Scott Bradley</th><th scope="col">Evan McMullin / Nathan Johnson</th><th scope="col">Jill Stein / Ajamu Baraka</th><th scope="col">Donald J Trump / Michael R Pence</th><th scope="col">Peter Skewes / Michael Lacy</th><th scope="col">Gary Johnson / Bill Weld</th><th scope="col">Total</th></tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Greenwood No. 1" id="Greenwood No. 1"></a>Greenwood No. 1</td>
+<td>252</td>
+<td>1</td>
+<td>4</td>
+<td>6</td>
+<td>46</td>
+<td>1</td>
+<td>3</td>
+<td class="total">313</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Greenwood No. 2" id="Greenwood No. 2"></a>Greenwood No. 2</td>
+<td>364</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>21</td>
+<td>0</td>
+<td>3</td>
+<td class="total">391</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Greenwood No. 3" id="Greenwood No. 3"></a>Greenwood No. 3</td>
+<td>213</td>
+<td>0</td>
+<td>11</td>
+<td>4</td>
+<td>295</td>
+<td>0</td>
+<td>21</td>
+<td class="total">544</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Greenwood No. 4" id="Greenwood No. 4"></a>Greenwood No. 4</td>
+<td>278</td>
+<td>0</td>
+<td>4</td>
+<td>5</td>
+<td>271</td>
+<td>2</td>
+<td>14</td>
+<td class="total">574</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Greenwood No. 5" id="Greenwood No. 5"></a>Greenwood No. 5</td>
+<td>172</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>53</td>
+<td>1</td>
+<td>4</td>
+<td class="total">232</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Greenwood No. 6" id="Greenwood No. 6"></a>Greenwood No. 6</td>
+<td>237</td>
+<td>2</td>
+<td>1</td>
+<td>3</td>
+<td>145</td>
+<td>1</td>
+<td>6</td>
+<td class="total">395</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Greenwood No. 7" id="Greenwood No. 7"></a>Greenwood No. 7</td>
+<td>270</td>
+<td>2</td>
+<td>5</td>
+<td>4</td>
+<td>166</td>
+<td>1</td>
+<td>15</td>
+<td class="total">463</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Greenwood No. 8" id="Greenwood No. 8"></a>Greenwood No. 8</td>
+<td>172</td>
+<td>2</td>
+<td>6</td>
+<td>5</td>
+<td>260</td>
+<td>1</td>
+<td>13</td>
+<td class="total">459</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Glendale" id="Glendale"></a>Glendale</td>
+<td>154</td>
+<td>4</td>
+<td>14</td>
+<td>7</td>
+<td>563</td>
+<td>0</td>
+<td>16</td>
+<td class="total">758</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Harris" id="Harris"></a>Harris</td>
+<td>135</td>
+<td>1</td>
+<td>2</td>
+<td>7</td>
+<td>193</td>
+<td>2</td>
+<td>10</td>
+<td class="total">350</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Laco" id="Laco"></a>Laco</td>
+<td>213</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>472</td>
+<td>3</td>
+<td>11</td>
+<td class="total">710</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Ninety Six" id="Ninety Six"></a>Ninety Six</td>
+<td>175</td>
+<td>1</td>
+<td>4</td>
+<td>4</td>
+<td>249</td>
+<td>0</td>
+<td>12</td>
+<td class="total">445</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Ninety Six Mill" id="Ninety Six Mill"></a>Ninety Six Mill</td>
+<td>51</td>
+<td>0</td>
+<td>5</td>
+<td>2</td>
+<td>344</td>
+<td>0</td>
+<td>13</td>
+<td class="total">415</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Ware Shoals" id="Ware Shoals"></a>Ware Shoals</td>
+<td>134</td>
+<td>2</td>
+<td>1</td>
+<td>2</td>
+<td>169</td>
+<td>2</td>
+<td>7</td>
+<td class="total">317</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Hodges" id="Hodges"></a>Hodges</td>
+<td>161</td>
+<td>2</td>
+<td>6</td>
+<td>3</td>
+<td>542</td>
+<td>0</td>
+<td>13</td>
+<td class="total">727</td>
+</tr>
+<tr>
+<th id="thcheck" width="16">&nbsp;</th>
+<th id="thpre" scope="col" class="alignLeft width100">Precinct</th>
+<th scope="col">Hillary Rodham Clinton / Timothy Michael Kaine</th><th scope="col">Darrell Castle / Scott Bradley</th><th scope="col">Evan McMullin / Nathan Johnson</th><th scope="col">Jill Stein / Ajamu Baraka</th><th scope="col">Donald J Trump / Michael R Pence</th><th scope="col">Peter Skewes / Michael Lacy</th><th scope="col">Gary Johnson / Bill Weld</th><th scope="col">Total</th></tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Cokesbury" id="Cokesbury"></a>Cokesbury</td>
+<td>261</td>
+<td>3</td>
+<td>5</td>
+<td>1</td>
+<td>267</td>
+<td>0</td>
+<td>7</td>
+<td class="total">544</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Coronaca" id="Coronaca"></a>Coronaca</td>
+<td>117</td>
+<td>3</td>
+<td>4</td>
+<td>1</td>
+<td>610</td>
+<td>0</td>
+<td>16</td>
+<td class="total">751</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Greenwood High" id="Greenwood High"></a>Greenwood High</td>
+<td>146</td>
+<td>3</td>
+<td>6</td>
+<td>6</td>
+<td>293</td>
+<td>0</td>
+<td>8</td>
+<td class="total">462</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Georgetown" id="Georgetown"></a>Georgetown</td>
+<td>200</td>
+<td>2</td>
+<td>6</td>
+<td>4</td>
+<td>234</td>
+<td>1</td>
+<td>14</td>
+<td class="total">461</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Sandridge" id="Sandridge"></a>Sandridge</td>
+<td>51</td>
+<td>1</td>
+<td>2</td>
+<td>0</td>
+<td>328</td>
+<td>0</td>
+<td>5</td>
+<td class="total">387</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Callison" id="Callison"></a>Callison</td>
+<td>110</td>
+<td>3</td>
+<td>1</td>
+<td>0</td>
+<td>394</td>
+<td>3</td>
+<td>9</td>
+<td class="total">520</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Bradley" id="Bradley"></a>Bradley</td>
+<td>43</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>87</td>
+<td>0</td>
+<td>6</td>
+<td class="total">137</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Troy" id="Troy"></a>Troy</td>
+<td>24</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>61</td>
+<td>0</td>
+<td>2</td>
+<td class="total">87</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Epworth" id="Epworth"></a>Epworth</td>
+<td>59</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>309</td>
+<td>0</td>
+<td>5</td>
+<td class="total">376</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Verdery" id="Verdery"></a>Verdery</td>
+<td>281</td>
+<td>2</td>
+<td>8</td>
+<td>4</td>
+<td>375</td>
+<td>4</td>
+<td>13</td>
+<td class="total">687</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="New Market" id="New Market"></a>New Market</td>
+<td>181</td>
+<td>0</td>
+<td>5</td>
+<td>2</td>
+<td>283</td>
+<td>2</td>
+<td>4</td>
+<td class="total">477</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Emerald" id="Emerald"></a>Emerald</td>
+<td>223</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>57</td>
+<td>1</td>
+<td>8</td>
+<td class="total">291</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Airport" id="Airport"></a>Airport</td>
+<td>103</td>
+<td>1</td>
+<td>10</td>
+<td>3</td>
+<td>390</td>
+<td>1</td>
+<td>17</td>
+<td class="total">525</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Emerald High" id="Emerald High"></a>Emerald High</td>
+<td>60</td>
+<td>0</td>
+<td>6</td>
+<td>2</td>
+<td>196</td>
+<td>0</td>
+<td>8</td>
+<td class="total">272</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Civic Center" id="Civic Center"></a>Civic Center</td>
+<td>310</td>
+<td>1</td>
+<td>1</td>
+<td>6</td>
+<td>221</td>
+<td>3</td>
+<td>4</td>
+<td class="total">546</td>
+</tr>
+<tr>
+<th id="thcheck" width="16">&nbsp;</th>
+<th id="thpre" scope="col" class="alignLeft width100">Precinct</th>
+<th scope="col">Hillary Rodham Clinton / Timothy Michael Kaine</th><th scope="col">Darrell Castle / Scott Bradley</th><th scope="col">Evan McMullin / Nathan Johnson</th><th scope="col">Jill Stein / Ajamu Baraka</th><th scope="col">Donald J Trump / Michael R Pence</th><th scope="col">Peter Skewes / Michael Lacy</th><th scope="col">Gary Johnson / Bill Weld</th><th scope="col">Total</th></tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Riley" id="Riley"></a>Riley</td>
+<td>40</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>77</td>
+<td>0</td>
+<td>1</td>
+<td class="total">119</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Shoals Junction" id="Shoals Junction"></a>Shoals Junction</td>
+<td>43</td>
+<td>0</td>
+<td>2</td>
+<td>2</td>
+<td>141</td>
+<td>0</td>
+<td>2</td>
+<td class="total">190</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Greenwood Mill" id="Greenwood Mill"></a>Greenwood Mill</td>
+<td>105</td>
+<td>0</td>
+<td>5</td>
+<td>5</td>
+<td>262</td>
+<td>0</td>
+<td>15</td>
+<td class="total">392</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Stonewood" id="Stonewood"></a>Stonewood</td>
+<td>171</td>
+<td>2</td>
+<td>2</td>
+<td>5</td>
+<td>656</td>
+<td>2</td>
+<td>20</td>
+<td class="total">858</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Mimosa Crest" id="Mimosa Crest"></a>Mimosa Crest</td>
+<td>123</td>
+<td>0</td>
+<td>2</td>
+<td>1</td>
+<td>228</td>
+<td>1</td>
+<td>15</td>
+<td class="total">370</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Lower Lake" id="Lower Lake"></a>Lower Lake</td>
+<td>97</td>
+<td>0</td>
+<td>3</td>
+<td>1</td>
+<td>510</td>
+<td>0</td>
+<td>13</td>
+<td class="total">624</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Pinecrest" id="Pinecrest"></a>Pinecrest</td>
+<td>161</td>
+<td>3</td>
+<td>8</td>
+<td>8</td>
+<td>284</td>
+<td>0</td>
+<td>8</td>
+<td class="total">472</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Maxwellton Pike" id="Maxwellton Pike"></a>Maxwellton Pike</td>
+<td>55</td>
+<td>2</td>
+<td>2</td>
+<td>4</td>
+<td>351</td>
+<td>1</td>
+<td>14</td>
+<td class="total">429</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="New Castle" id="New Castle"></a>New Castle</td>
+<td>101</td>
+<td>2</td>
+<td>5</td>
+<td>6</td>
+<td>374</td>
+<td>0</td>
+<td>13</td>
+<td class="total">501</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Rutherford Shoals" id="Rutherford Shoals"></a>Rutherford Shoals</td>
+<td>145</td>
+<td>0</td>
+<td>0</td>
+<td>4</td>
+<td>282</td>
+<td>0</td>
+<td>5</td>
+<td class="total">436</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Liberty" id="Liberty"></a>Liberty</td>
+<td>205</td>
+<td>1</td>
+<td>2</td>
+<td>4</td>
+<td>186</td>
+<td>1</td>
+<td>5</td>
+<td class="total">404</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Biltmore Pines" id="Biltmore Pines"></a>Biltmore Pines</td>
+<td>175</td>
+<td>1</td>
+<td>7</td>
+<td>7</td>
+<td>385</td>
+<td>0</td>
+<td>12</td>
+<td class="total">587</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Marshall Oaks" id="Marshall Oaks"></a>Marshall Oaks</td>
+<td>186</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>52</td>
+<td>1</td>
+<td>6</td>
+<td class="total">247</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Sparrows Grace" id="Sparrows Grace"></a>Sparrows Grace</td>
+<td>97</td>
+<td>5</td>
+<td>5</td>
+<td>3</td>
+<td>611</td>
+<td>0</td>
+<td>15</td>
+<td class="total">736</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Mountain Laurel" id="Mountain Laurel"></a>Mountain Laurel</td>
+<td>215</td>
+<td>1</td>
+<td>4</td>
+<td>4</td>
+<td>182</td>
+<td>1</td>
+<td>8</td>
+<td class="total">415</td>
+</tr>
+<tr>
+<th id="thcheck" width="16">&nbsp;</th>
+<th id="thpre" scope="col" class="alignLeft width100">Precinct</th>
+<th scope="col">Hillary Rodham Clinton / Timothy Michael Kaine</th><th scope="col">Darrell Castle / Scott Bradley</th><th scope="col">Evan McMullin / Nathan Johnson</th><th scope="col">Jill Stein / Ajamu Baraka</th><th scope="col">Donald J Trump / Michael R Pence</th><th scope="col">Peter Skewes / Michael Lacy</th><th scope="col">Gary Johnson / Bill Weld</th><th scope="col">Total</th></tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Allie's Crossing" id="Allie's Crossing"></a>Allie's Crossing</td>
+<td>118</td>
+<td>0</td>
+<td>3</td>
+<td>1</td>
+<td>307</td>
+<td>0</td>
+<td>9</td>
+<td class="total">438</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Gideon's Way" id="Gideon's Way"></a>Gideon's Way</td>
+<td>201</td>
+<td>1</td>
+<td>5</td>
+<td>0</td>
+<td>161</td>
+<td>1</td>
+<td>3</td>
+<td class="total">372</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="Parson's Mill" id="Parson's Mill"></a>Parson's Mill</td>
+<td>136</td>
+<td>5</td>
+<td>5</td>
+<td>3</td>
+<td>241</td>
+<td>1</td>
+<td>17</td>
+<td class="total">408</td>
+</tr>
+<tr>
+<td width="16">
+&nbsp;
+</td><td class="alignLeft"><a name="Absentee" id="Absentee"></a>Absentee</td>
+<td>2998</td>
+<td>13</td>
+<td>31</td>
+<td>9</td>
+<td>3644</td>
+<td>10</td>
+<td>109</td>
+<td class="total">6,814</td>
+</tr>
+<tr>
+<td width="16">
+&nbsp;
+</td><td class="alignLeft"><a name="Emergency" id="Emergency"></a>Emergency</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td class="total">0</td>
+</tr>
+<tr>
+<td width="16">
+&nbsp;
+</td><td class="alignLeft"><a name="Failsafe" id="Failsafe"></a>Failsafe</td>
+<td>111</td>
+<td>1</td>
+<td>1</td>
+<td>3</td>
+<td>53</td>
+<td>1</td>
+<td>2</td>
+<td class="total">172</td>
+</tr>
+<tr>
+<td width="16">
+&nbsp;
+</td><td class="alignLeft"><a name="Provisional" id="Provisional"></a>Provisional</td>
+<td>37</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>33</td>
+<td>0</td>
+<td>0</td>
+<td class="total">73</td>
+</tr>
+<tr>
+<td width="16">
+&nbsp;
+</td><td class="alignLeft"><a name="Failsafe Provisional" id="Failsafe Provisional"></a>Failsafe Provisional</td>
+<td>41</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>47</td>
+<td>0</td>
+<td>1</td>
+<td class="total">90</td>
+</tr>
+<tr><td width="16" class="total">&nbsp;</td><td class="alignLeft total">Total:</td>
+<td class="total">10,711</td>
+<td class="total">81</td>
+<td class="total">221</td>
+<td class="total">160</td>
+<td class="total">16,961</td>
+<td class="total">49</td>
+<td class="total">580</td>
+<td class="total">28,763</td>
+</tr></tbody></table></td></tr></tbody></table>
+</div>
+<script type="text/javascript">
+cid = GetParameterValue('cid');
+var jsonFile = "../json/sum.json,../json/details.json,../json/status.json";
+LoadJsonList(jsonFile,'MapDetailData()');
+setTimeout('setArea()',1000);
+</script>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div id="content-footer">
+<div id="content-footerL"></div>
+<div id="content-footerR"></div>
+</div>
+</div>
+<center><div id="copyright" style="font-size:x-small;">Copyright © <script>document.write(new Date().getFullYear());</script>2017 Powered by - <a href="http://www.scytl.com">Scytl</a></div></center>
+
+
+<script type="text/javascript">
+var googleAnalyticsID = '';
+var googleAnalyticsIdGlobal = 'UA-3425620-3';
+GoogleAnalytics.trackPage(googleAnalyticsID, googleAnalyticsIdGlobal);
+</script>
+
+
+
+</body></html>
