@@ -1,7 +1,7 @@
 2016 Upstate County General Election Data
 =========================================
 
-This script scrapes scvotes.org to gather voter turnout data from the 2016 general election for the "tri-county" area encompassing where I live in Clemson, South Carolina. These counties are Anderson, Oconee, and Pickens. As far as electoral politics go, these aren't the most exciting areas in the country. In fact, they comprise the reddest part of a sunburn-red state (South Carolina). These data are largely for illustrative value in the classroom and in my local community.
+This script scrapes scvotes.org to gather voter turnout data from the 2016 general election for the Upstate area encompassing where I live in Clemson, South Carolina. These counties are Anderson, Oconee, and Pickens in my immediate reach as well as other counties south and east (prominently Greenville and Spartanburg). As far as electoral politics go, these aren't the most exciting areas in the country. In fact, they comprise the reddest part of a sunburn-red state (South Carolina). These data are largely for illustrative value in the classroom and in my local community.
 
 - **county**: an identifier for county (e.g. Anderson, Oconee, Pickens)
 - **precinct**: name of the precinct
