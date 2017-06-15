@@ -1,0 +1,480 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+<title>Saluda - Election Results</title><script type="text/javascript">
+try {document.execCommand("BackgroundImageCache", false, true);} catch(err) {}
+</script> 
+
+<script type="text/javascript">
+<!-- 
+var gomez={
+gs: new Date().getTime(),
+acctId:'5154D9',
+pgId:'Saluda:ENRMapData',
+grpId:'64699' 
+}; 
+//--> 
+</script> 
+
+<link href="../css/main.css" rel="stylesheet" type="text/css" media="screen">
+<link href="../css/print.css" rel="stylesheet" type="text/css" media="print">
+<!--[if IE]><script type="text/javascript" src="../js/excanvas-compressed.js"></script><![endif]-->
+<script type="text/JavaScript" src="../js/common-compressed.js"></script>
+<script type="text/JavaScript" src="../js/gomez.js"></script><script src="http://5154D9.r.axf8.net/mr/a.gif?a=5154D9&amp;v=1"></script>
+
+<script type="text/JavaScript">
+var votes = 'Votes';
+var total = 'Total';
+var reporting = 'Reporting';
+var areaLabel = 'Precinct';
+var CloseThisWindow = 'Close This Window';
+var PrintThisPage = 'Print This Page';
+var tabSystem = 2;
+var showVoteFor = 1;
+var cid = 0;
+var vote_for = 'Vote For';
+var langId = 'en';
+var region = 'Saluda';
+var detailLabel = 'Detail';
+function setArea()
+{
+if( ExistParameter('a') )
+{ 
+var a = GetParameterValue('a');
+a = _utf8_decode(unescape(a));
+if( document.getElementById( a ) != null )
+{
+document.location.href = '#' + a;
+}
+}
+}
+function _utf8_decode(utftext) {
+var string = "";
+var i = 0;
+var c = c1 = c2 = 0;
+while ( i < utftext.length ) {
+c = utftext.charCodeAt(i);
+if (c < 128) {
+string += String.fromCharCode(c);
+i++;
+}
+else if((c > 191) && (c < 224)) {
+c2 = utftext.charCodeAt(i+1);
+string += String.fromCharCode(((c & 31) << 6) | (c2 & 63));
+i += 2;
+}
+else {
+c2 = utftext.charCodeAt(i+1);
+c3 = utftext.charCodeAt(i+2);
+string += String.fromCharCode(((c & 15) << 12) | ((c2 & 63) << 6) | (c3 & 63));
+i += 3;
+}
+}
+return string;
+}
+</script>
+</head>
+<body onload="doInit();">
+<div id="wrapper">
+<div id="content-wrapper">
+<div id="note"><center><font size="2" color="red">OFFICIAL RESULTS</font></center><br><center><br>
+<font size="3" color="blue">Precinct-level results by county and contest are located under the "Results by County" tab on the Statewide Results Page.<br><br>
+<input type="button" value="« Return to Statewide Results" onclick="self.close()">
+</font></center></div>
+<table border="0" cellspacing="0" cellpadding="0" class="contest">
+<tbody><tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0" class="map">
+<thead>
+<tr>
+<th width="90%" align="left">2016 Statewide General Election <a href="http://www.enr-scvotes.org/SC/SCElectionResults.xml">RSS</a></th>
+<th align="right" nowrap="nowrap"><span id="wlu"><label>Last updated</label>&nbsp;11/16/2016 3:37:07 PM EST</span></th>
+</tr>
+</thead>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<div id="results"><table border="0" cellspacing="0" cellpadding="0" class="map">
+<thead>
+<tr>
+<th width="100%">STRAIGHT PARTY (Vote For 1)</th>
+<th width="160" align="right">&nbsp;</th>
+<th width="160" align="right"><div class="btn-printable-pop"><a href="JavaScript:window.print();">Print This Page</a></div></th>
+<th width="160" align="right"><div class="btn-close"><a href="javascript:window.close()">Close This Window</a></div></th>
+</tr>
+</thead>
+<tbody><tr>
+<td colspan="4">
+<div id="legend"><img src="../images/check.gif" alt="Precinct Reporting" border="0"> = Precinct Reporting</div>
+<div id="precinctDetailLabel">Saluda Precinct Detail</div>
+<table border="0" cellspacing="0" cellpadding="0" class="vts-data">
+<tbody><tr>
+<th id="thcheck" width="16">&nbsp;</th>
+<th id="thpre" scope="col" class="alignLeft width100">Precinct</th>
+<th scope="col">Democratic</th><th scope="col">Working Families</th><th scope="col">Constitution</th><th scope="col">Independence</th><th scope="col">Green</th><th scope="col">Republican</th><th scope="col">American</th><th scope="col">Libertarian</th><th scope="col">Total</th></tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="CENTENNIAL" id="CENTENNIAL"></a>CENTENNIAL</td>
+<td>40</td>
+<td>0</td>
+<td>0</td>
+<td>3</td>
+<td>1</td>
+<td>56</td>
+<td>0</td>
+<td>2</td>
+<td class="total">102</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="CLYDE" id="CLYDE"></a>CLYDE</td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+<td>3</td>
+<td>1</td>
+<td>34</td>
+<td>1</td>
+<td>0</td>
+<td class="total">46</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="DELMAR" id="DELMAR"></a>DELMAR</td>
+<td>10</td>
+<td>1</td>
+<td>0</td>
+<td>3</td>
+<td>2</td>
+<td>79</td>
+<td>1</td>
+<td>1</td>
+<td class="total">97</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="FRUIT HILL" id="FRUIT HILL"></a>FRUIT HILL</td>
+<td>210</td>
+<td>3</td>
+<td>0</td>
+<td>4</td>
+<td>1</td>
+<td>34</td>
+<td>1</td>
+<td>1</td>
+<td class="total">254</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="HIGGINS-ZOAR" id="HIGGINS-ZOAR"></a>HIGGINS-ZOAR</td>
+<td>115</td>
+<td>1</td>
+<td>1</td>
+<td>3</td>
+<td>0</td>
+<td>28</td>
+<td>2</td>
+<td>0</td>
+<td class="total">150</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="HOLLY" id="HOLLY"></a>HOLLY</td>
+<td>23</td>
+<td>3</td>
+<td>0</td>
+<td>3</td>
+<td>0</td>
+<td>211</td>
+<td>4</td>
+<td>1</td>
+<td class="total">245</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="HOLLYWOOD" id="HOLLYWOOD"></a>HOLLYWOOD</td>
+<td>39</td>
+<td>7</td>
+<td>2</td>
+<td>6</td>
+<td>0</td>
+<td>166</td>
+<td>2</td>
+<td>0</td>
+<td class="total">222</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="HOLSTONS" id="HOLSTONS"></a>HOLSTONS</td>
+<td>141</td>
+<td>5</td>
+<td>0</td>
+<td>4</td>
+<td>1</td>
+<td>128</td>
+<td>1</td>
+<td>3</td>
+<td class="total">283</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="MAYSON" id="MAYSON"></a>MAYSON</td>
+<td>41</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>63</td>
+<td>1</td>
+<td>0</td>
+<td class="total">111</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="MT. WILLING" id="MT. WILLING"></a>MT. WILLING</td>
+<td>16</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>33</td>
+<td>1</td>
+<td>0</td>
+<td class="total">51</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="PLEASANT CROSS" id="PLEASANT CROSS"></a>PLEASANT CROSS</td>
+<td>54</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>24</td>
+<td>0</td>
+<td>0</td>
+<td class="total">78</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="PLEASANT GROVE" id="PLEASANT GROVE"></a>PLEASANT GROVE</td>
+<td>21</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>112</td>
+<td>1</td>
+<td>0</td>
+<td class="total">134</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="RICHLAND" id="RICHLAND"></a>RICHLAND</td>
+<td>44</td>
+<td>3</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>97</td>
+<td>1</td>
+<td>1</td>
+<td class="total">148</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="RIDGE SPRING - MONETTA" id="RIDGE SPRING - MONETTA"></a>RIDGE SPRING - MONETTA</td>
+<td>203</td>
+<td>3</td>
+<td>1</td>
+<td>3</td>
+<td>2</td>
+<td>70</td>
+<td>2</td>
+<td>0</td>
+<td class="total">284</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="SALUDA NO. 1" id="SALUDA NO. 1"></a>SALUDA NO. 1</td>
+<td>344</td>
+<td>4</td>
+<td>2</td>
+<td>3</td>
+<td>0</td>
+<td>37</td>
+<td>2</td>
+<td>2</td>
+<td class="total">394</td>
+</tr>
+<tr>
+<th id="thcheck" width="16">&nbsp;</th>
+<th id="thpre" scope="col" class="alignLeft width100">Precinct</th>
+<th scope="col">Democratic</th><th scope="col">Working Families</th><th scope="col">Constitution</th><th scope="col">Independence</th><th scope="col">Green</th><th scope="col">Republican</th><th scope="col">American</th><th scope="col">Libertarian</th><th scope="col">Total</th></tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="SALUDA NO. 2" id="SALUDA NO. 2"></a>SALUDA NO. 2</td>
+<td>152</td>
+<td>3</td>
+<td>0</td>
+<td>5</td>
+<td>0</td>
+<td>81</td>
+<td>7</td>
+<td>1</td>
+<td class="total">249</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="SARDIS" id="SARDIS"></a>SARDIS</td>
+<td>5</td>
+<td>3</td>
+<td>1</td>
+<td>4</td>
+<td>2</td>
+<td>60</td>
+<td>2</td>
+<td>0</td>
+<td class="total">77</td>
+</tr>
+<tr>
+<td width="16">
+<img src="../images/check.gif" alt="Precinct Reporting" border="0"></td>
+<td class="alignLeft"><a name="WARD" id="WARD"></a>WARD</td>
+<td>93</td>
+<td>3</td>
+<td>0</td>
+<td>2</td>
+<td>1</td>
+<td>57</td>
+<td>1</td>
+<td>1</td>
+<td class="total">158</td>
+</tr>
+<tr>
+<td width="16">
+&nbsp;
+</td><td class="alignLeft"><a name="Absentee" id="Absentee"></a>Absentee</td>
+<td>353</td>
+<td>6</td>
+<td>0</td>
+<td>4</td>
+<td>1</td>
+<td>225</td>
+<td>1</td>
+<td>0</td>
+<td class="total">590</td>
+</tr>
+<tr>
+<td width="16">
+&nbsp;
+</td><td class="alignLeft"><a name="Emergency" id="Emergency"></a>Emergency</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td class="total">3</td>
+</tr>
+<tr>
+<td width="16">
+&nbsp;
+</td><td class="alignLeft"><a name="Failsafe" id="Failsafe"></a>Failsafe</td>
+<td>17</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>10</td>
+<td>1</td>
+<td>0</td>
+<td class="total">30</td>
+</tr>
+<tr>
+<td width="16">
+&nbsp;
+</td><td class="alignLeft"><a name="Provisional" id="Provisional"></a>Provisional</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td class="total">0</td>
+</tr>
+<tr>
+<td width="16">
+&nbsp;
+</td><td class="alignLeft"><a name="Failsafe Provisional" id="Failsafe Provisional"></a>Failsafe Provisional</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td class="total">0</td>
+</tr>
+<tr><td width="16" class="total">&nbsp;</td><td class="alignLeft total">Total:</td>
+<td class="total">1,931</td>
+<td class="total">52</td>
+<td class="total">7</td>
+<td class="total">53</td>
+<td class="total">13</td>
+<td class="total">1,605</td>
+<td class="total">32</td>
+<td class="total">13</td>
+<td class="total">3,706</td>
+</tr></tbody></table></td></tr></tbody></table>
+</div>
+<script type="text/javascript">
+cid = GetParameterValue('cid');
+var jsonFile = "../json/sum.json,../json/details.json,../json/status.json";
+LoadJsonList(jsonFile,'MapDetailData()');
+setTimeout('setArea()',1000);
+</script>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div id="content-footer">
+<div id="content-footerL"></div>
+<div id="content-footerR"></div>
+</div>
+</div>
+<center><div id="copyright" style="font-size:x-small;">Copyright © <script>document.write(new Date().getFullYear());</script>2017 Powered by - <a href="http://www.scytl.com">Scytl</a></div></center>
+
+
+<script type="text/javascript">
+var googleAnalyticsID = '';
+var googleAnalyticsIdGlobal = 'UA-3425620-3';
+GoogleAnalytics.trackPage(googleAnalyticsID, googleAnalyticsIdGlobal);
+</script>
+
+
+
+</body></html>
